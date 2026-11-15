@@ -1,0 +1,22 @@
+PRITHVI AI — Responsive layout hardening
+
+Changes in this package:
+- Sidebar now has its own vertical scrolling area so the help card and signed-in user section are reachable on shorter desktop screens.
+- Main content and grid children use min-width: 0 to prevent flex/grid overflow.
+- Horizontal overflow is clipped at the page boundary.
+- Assistant/chat layout collapses to one column on tablet/mobile widths.
+- Chat messages can scroll independently and long text wraps instead of stretching the page.
+- Tablet and small-phone spacing, form columns, headings and cards have additional breakpoints.
+- Safe-area bottom padding is applied on mobile devices.
+
+Install:
+1. Extract this ZIP to a NEW folder.
+2. Copy your existing private web/.env into the extracted project's web/ folder. Do not upload or share it.
+3. Open Command Prompt in the web folder.
+4. Run: npm.cmd ci
+5. Run: npm.cmd run build
+6. If the build succeeds, run: npm.cmd run dev
+7. Test at desktop, tablet and mobile widths. Keep the previous project as backup until verified.
+
+Validation note:
+A dependency installation/build could not be completed in the preparation environment because npm ci timed out. The CSS and source changes are included, but a successful production build and end-to-end feature test must be confirmed on your Windows machine.

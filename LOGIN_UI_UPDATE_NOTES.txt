@@ -1,0 +1,16 @@
+PRITHVI AI — Login UI and Responsive Layout Update
+
+Changes:
+- Added the user-supplied farmer photograph at web/public/prithvi-farmer-login.jpg.
+- Updated the login/register visual panel to use the supplied photo with a readable dark overlay.
+- Improved responsive layout for desktop, tablet, and mobile widths.
+- Adjusted login form width, input sizes, spacing, safe-area padding, and small-screen image height.
+- Existing React authentication handlers and Firebase integration were not changed.
+
+Important:
+- This ZIP intentionally does not contain your private web/.env file.
+- Preserve your existing web/.env file. If you extract this ZIP over your existing project, choose not to overwrite .env if prompted; otherwise copy your .env back into the updated web folder afterward.
+- From the web folder run: npm.cmd install, then npm.cmd run dev.
+
+Build verification:
+- A production build could not be completed in this environment because dependency installation timed out and the local npm cache did not contain all required packages. Run npm.cmd install on your Windows machine, then npm.cmd run build to verify locally.
