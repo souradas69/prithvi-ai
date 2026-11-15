@@ -1,0 +1,6 @@
+{
+  "name": "PRITHVI AI",
+  "description": "Smart Farming. Better Crops. Stronger Farmers. AI assistant for Indian farmers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
